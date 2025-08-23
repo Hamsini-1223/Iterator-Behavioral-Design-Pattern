@@ -1,0 +1,24 @@
+{
+  "name": "rome-iterator-pattern",
+  "version": "1.0.0",
+  "description": "Interactive Iterator Pattern example using Rome tourism",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc *.ts",
+    "start": "npm run build && node index.js",
+    "dev": "tsc *.ts && node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "iterator",
+    "design-pattern",
+    "typescript",
+    "rome",
+    "tourism"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
