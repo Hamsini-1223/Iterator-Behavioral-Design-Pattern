@@ -12,7 +12,7 @@ This console application demonstrates how the Iterator pattern allows different 
 
 ## Project Structure
 
-````
+```
 ├──src/
 │ ├── models/
 │ │ └── place.ts # Data model representing Rome attractions
@@ -32,6 +32,7 @@ This console application demonstrates how the Iterator pattern allows different 
 ├──README.md
 ├──package.json
 ├──tsconfig.json
+
 ```
 
 ## Installation
@@ -39,7 +40,7 @@ This console application demonstrates how the Iterator pattern allows different 
 ```bash
 npm install
 npm start
-````
+```
 
 ## Code Example
 
