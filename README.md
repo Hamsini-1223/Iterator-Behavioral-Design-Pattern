@@ -13,25 +13,33 @@ This console application demonstrates how the Iterator pattern allows different 
 ## Project Structure
 
 ```
-├──src/
-│ ├── models/
-│ │ └── place.ts # Data model representing Rome attractions
-│ ├── interfaces/
-│ │ └── guide.ts # Iterator interface defining traversal contract
-│ ├── iterators/
-│ │ ├── randomWalk.ts # Random order traversal implementation
-│ │ ├── phoneApp.ts # Popularity-based traversal implementation
-│ │ └── localGuide.ts # Sequential traversal with additional information
-│ ├── collections/
-│ │ └── rome.ts # Collection class containing places and iterator factories
-│ ├── clients/
-│ │ └── tourist.ts # Client class that uses iterators
-│ ├── controllers/
-│ │ └── interactiveDemo.ts # Console interface controller
-│ └── index.ts # Application entry point
-├──README.md
-├──package.json
-├──tsconfig.json
+
+├── src/                        # Source code
+│   ├── models/
+│   │   └── place.ts            # Defines the "Place" data model (Rome attractions)
+│   │
+│   ├── interfaces/
+│   │   └── guide.ts            # Iterator interface (defines traversal contract)
+│   │
+│   ├── iterators/
+│   │   ├── randomWalk.ts       # Iterator: traverse places in random order
+│   │   ├── phoneApp.ts         # Iterator: traverse based on popularity (like apps)
+│   │   └── localGuide.ts       # Iterator: sequential traversal with extra info
+│   │
+│   ├── collections/
+│   │   └── rome.ts             # Collection of places + iterator factory methods
+│   │
+│   ├── clients/
+│   │   └── tourist.ts          # Client that uses iterators to explore Rome
+│   │
+│   ├── controllers/
+│   │   └── interactiveDemo.ts  # Console controller for interactive demo
+│   │
+│   └── index.ts                # Application entry point
+│
+├── README.md                   # Project documentation
+├── package.json                # Project metadata & dependencies
+└── tsconfig.json               # TypeScript configuration
 
 ```
 
