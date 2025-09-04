@@ -10,6 +10,9 @@ This console application demonstrates how the Iterator pattern allows different 
 - **Phone App**: Popular attractions first
 - **Local Guide**: Sequential with insider tips
 
+## Project Structure
+
+````
 ├──src/
 │ ├── models/
 │ │ └── place.ts # Data model representing Rome attractions
@@ -29,13 +32,14 @@ This console application demonstrates how the Iterator pattern allows different 
 ├──README.md
 ├──package.json
 ├──tsconfig.json
+```
 
 ## Installation
 
 ```bash
 npm install
 npm start
-```
+````
 
 ## Code Example
 
